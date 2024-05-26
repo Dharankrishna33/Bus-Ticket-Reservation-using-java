@@ -23,7 +23,6 @@ public class Booking {
 			e.printStackTrace();
 		  }
     	  System.out.println();
-          sc.close();
       }
       public boolean isAvailable(ArrayList<Bus>buses,ArrayList<Booking>bookings) {
     	  int capacity=0;
